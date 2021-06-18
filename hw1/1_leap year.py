@@ -9,6 +9,6 @@ user_year = input('Input the year to check: ')
 
 while not user_year.isdigit():
     print("Not a number entered")
-    year = input("Input the year to check:  ")
+    user_year = input("Input the year to check:  ")
 year = int(user_year)
 is_leap(year)

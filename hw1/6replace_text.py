@@ -1,0 +1,6 @@
+user_fio = input('Введите ФИО полностью: ')
+user_fio = user_fio.title().split()
+user_fio[1] = user_fio[1][:2].replace(user_fio[1][1], ".")
+user_fio[2] = user_fio[2][:2].replace(user_fio[2][1], ".")
+user_fio = " ".join(user_fio)
+print(user_fio)
